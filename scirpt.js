@@ -22,5 +22,5 @@ function onRegister() {
   const data =
     un.value == "" || el.value == "" || pw.value == "" || cpw.value == ""
       ? alert("Please enter all fields")
-      : alert("Registration successful")((window.location.href = "index.html"));
+      : alert("Registration successful, welcome to login")((window.location.href = "index.html"));
 }
