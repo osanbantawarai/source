@@ -2,7 +2,6 @@ function onLogin() {
   const un = document.querySelector(".username");
   const pw = document.querySelector(".password");
   console.log(
-    "Login called",
     "username is:",
     un.value,
     ", password is:",
