@@ -10,7 +10,7 @@ function onLogin() {
   const data =
     un.value == "" || pw.value == ""
       ? alert("Please enter username and password")
-      : alert("Login successful");
+      : alert("Login successful !");
 }
 
 function onRegister() {
